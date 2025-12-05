@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableAspectJAutoProxy
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.sky")
 @EnableTransactionManagement //开启注解方式的事务管理
 @Slf4j
 public class SkyApplication {

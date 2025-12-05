@@ -44,6 +44,5 @@ sky:
     access-key-secret: ${sky.alioss.access-key-secret}
     bucket-name: ${sky.alioss.bucket-name}
 
-#    file:
-#      upload-dir: E:/BaiduNetdiskDownload/资料/资料/day01/后端初始工程/资料/sky-take-out/uploads
-#      access-url: http://localhost:8080/uploads
+    file:
+      upload-path: E:\BaiduNetdiskDownload\资料\资料\day01\前端运行环境\nginx-1.20.2\html\sky\uploads
