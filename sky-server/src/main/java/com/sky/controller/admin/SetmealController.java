@@ -20,6 +20,12 @@ import java.util.List;
 public class SetmealController {
     @Autowired
     private SetmealService setmealService;
+
+    /**
+     * 批量删除套餐
+     * @param ids
+     * @return
+     */
     @DeleteMapping
     @ApiOperation("批量删除套餐")
     public Result delete(@RequestParam List<Long> ids){
