@@ -1,4 +1,4 @@
-package com.sky.service.impl;
+package com.sky.service;
 
 import com.sky.dto.DishDTO;
 import com.sky.dto.DishPageQueryDTO;
@@ -38,5 +38,7 @@ public interface DishService {
      */
     void startOrStop(Integer status, Long id);
 
+
+    List<DishVO> listWithFlavor(Dish  dish);
 
 }
